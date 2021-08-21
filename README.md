@@ -4,6 +4,7 @@ Comentários no código fonte.
 
 Aula 42 - Como criar classes.
 Aula 43 - Atributos e métodos.
+Aula 44 - Métodos estáticos.
 
 
 # hcode-PHP-oriented-object-programming

@@ -1,9 +1,10 @@
 <?php
 
-//  1- Create class:
+//  1- Criar a classe:
 
 class Car{
   
+    // 2 - Criar os atributos
 
     private $marca;
     private $modelo;
@@ -11,13 +12,16 @@ class Car{
     private $ano;
 
     //   os Getters and Setters
+    // Criar um Get e um Set para cada atributo.
 
+    // Get Marca.
     public function getMarca(){
 
         return $this->marca;
 
     }
 
+    // Set Marca, e assim sucessivamente.
     public function setMarca($marca){
 
         $this->marca = $marca;
@@ -58,6 +62,7 @@ class Car{
 
     }
 
+    // Método para exibição do Carro.
     public function exibeCarro(){
 
         return array(
@@ -70,15 +75,20 @@ class Car{
 
 };
 
-$chd1404 = new Car();
+
+//Instanciando a classe carro:
+$chd1404 = new Carro();
+
+// Passando os valores para os atributos (instanciar).
 $chd1404->setMarca("Fiat");
 $chd1404->setModelo("Palio SE");
 $chd1404->setMotor("1.0");
 $chd1404->setAno("1997");
 
+// Exibindo o objeto instanciado.
 var_dump($chd1404->exibeCarro());
 echo '<br>';
-print_r($chd1404->exibeCarro());
+
 
 
 
